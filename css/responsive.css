@@ -1,0 +1,147 @@
+@media (max-width: 430px) {
+  #SearchBox {
+    width: 180px;
+  }
+}
+
+@media (max-width: 660px) {
+  .WelcomeText {
+    font-size: 22px;
+  }
+  .elementorTItle {
+    font-size: 45px;
+  }
+  .HeadlineDescribe {
+    display: none;
+  }
+  .elementor__container {
+    height: 450px;
+  }
+}
+
+@media (max-width: 760px) {
+  .OfficeLocation {
+    display: none;
+  }
+  .PhoneNumber {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .bar {
+    visibility: visible;
+  }
+  .navigation {
+    display: none;
+    background-color: blue;
+  }
+  .navigation .active {
+    border: none;
+    background-color: brown;
+  }
+  .navigation li {
+    border: none;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ec2525), to(#fd3c3d));
+    background-image: linear-gradient(#ec2525, #fd3c3d);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .navigation li:hover {
+    border: none;
+    background-color: coral;
+  }
+  .navbar {
+    position: absolute;
+    width: 100%;
+    margin-top: 116px;
+  }
+  .navigation {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .AboutPrograms li {
+    width: 50%;
+  }
+  .OurPrograms__container {
+    height: 1360px;
+  }
+  .coaches li {
+    display: block !important;
+    height: 810px;
+  }
+  .StevenAyokee, .DominicSnyder, .JulieCollins, .VirgilCook {
+    width: 100% !important;
+    height: 310px !important;
+  }
+  .trainerInfo__container {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 620px) {
+  .AboutPrograms li {
+    width: 100%;
+  }
+  .OurPrograms__container {
+    height: 2720px;
+  }
+  .coaches li {
+    width: 100% !important;
+  }
+  .SubscribeTitle {
+    font-size: 23px;
+  }
+  .subscrieText {
+    font-size: 20px;
+  }
+  .StayConnected {
+    font-size: 23px;
+  }
+  #subscribeEmail {
+    width: 170px;
+    font-size: 16px;
+    height: 30px;
+  }
+  .SubscribeBtn {
+    height: 34px;
+    width: 90px;
+  }
+}
+
+@media (max-width: 900px) {
+  .TextOnIronMassSect {
+    width: 90%;
+    margin: auto auto;
+  }
+}
+
+@media (max-width: 720px) {
+  .footerContainer {
+    display: block;
+    height: 700px;
+  }
+  .TextEditor {
+    margin: auto;
+  }
+  .elementorText__Editor {
+    margin: auto auto;
+    padding-top: 30px;
+    width: 100% !important;
+  }
+  .ContactInformation {
+    margin: auto auto;
+    width: 100% !important;
+  }
+  .OpenHour {
+    width: 100% !important;
+    margin: auto auto;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

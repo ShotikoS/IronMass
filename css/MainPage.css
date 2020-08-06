@@ -1,0 +1,732 @@
+.dark {
+  background-color: #222429 !important;
+}
+
+.Header {
+  background-color: #20232a;
+  width: 100%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.FaPhone {
+  color: #fd3c3d;
+}
+
+.ContactInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  width: 340px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 25px;
+}
+
+#SearchBox {
+  border-bottom: 2px solid white;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  background-color: #20232a;
+  color: white;
+  width: 275px;
+  outline: none;
+  font-size: 17px;
+  margin-right: 12px;
+}
+
+#SearchBox::-webkit-input-placeholder {
+  color: white;
+}
+
+#SearchBox:-ms-input-placeholder {
+  color: white;
+}
+
+#SearchBox::-ms-input-placeholder {
+  color: white;
+}
+
+#SearchBox::placeholder {
+  color: white;
+}
+
+.searchContainer {
+  display: none;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+}
+
+.StartSearch {
+  background-color: #fd3c3d;
+  border: #fd3c3d 1px solid;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  outline: none;
+}
+
+.SearchOnHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ShowHideSearch {
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.ShowHideSearch:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.navigationMenu {
+  height: 58px;
+  width: 100%;
+  background-color: #fd3c3d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Logo {
+  font-family: Caveat Bold;
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+}
+
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 58px;
+  margin-right: 25px;
+}
+
+.navigation .active {
+  border-bottom: 3px solid white;
+}
+
+.navigation li {
+  border-bottom: 3px solid #fd3c3d;
+  padding: 0px 15px;
+  height: 54px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navigation li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navigation li:hover {
+  border-bottom: 3px solid white;
+}
+
+.bar {
+  position: absolute;
+  text-align: right;
+  margin-left: 100%;
+  -webkit-transform: translateX(-200%);
+          transform: translateX(-200%);
+  color: white;
+  font-size: 30px;
+  visibility: hidden;
+  cursor: pointer;
+}
+
+.Social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Social li {
+  height: 20px !important;
+  width: 30px !important;
+  margin-top: 30px;
+}
+
+.Social li a {
+  color: white;
+  margin: 0px 10px;
+}
+
+.Social li a:first-child {
+  margin-left: 0px !important;
+}
+
+.Social li a:hover {
+  color: blue;
+}
+
+.elementor__container {
+  background-image: url("../image/woman-lifting-barbell-1552249.jpg");
+  width: 100%;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hrLineInEnelemtor {
+  width: 130px;
+  height: 3px;
+  background-color: #fd3c3d;
+  border: #fd3c3d 1px solid;
+}
+
+.elementorContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 40px;
+}
+
+.WelcomeText {
+  font-size: 44px;
+  color: white;
+  font-family: Staatliches;
+  letter-spacing: 7px;
+  font-weight: bold;
+}
+
+.elementorTItle {
+  font-size: 93px;
+  font-family: Staatliches;
+  letter-spacing: 7px;
+  font-weight: bold;
+  color: #fd3c3d;
+}
+
+.elementorTItle .ElementorTitlePtwo {
+  color: white;
+}
+
+.HeadlineDescribe {
+  width: 65%;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.GetStartToday {
+  width: 230px;
+  height: 50px;
+  margin-top: 40px;
+  outline: none;
+  background-color: #fd3c3d;
+  border: 1px solid #fd3c3d;
+  color: white;
+  font-size: 17px;
+  font-family: Staatliches;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.GetStartToday:hover {
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  background-color: white;
+  color: #fd3c3d;
+  border: white 1px solid;
+}
+
+.OurPrograms__title {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  letter-spacing: 2px;
+  font-family: Staatliches;
+  margin-top: 100px;
+}
+
+.AboutPrograms {
+  width: 100%;
+  height: 630px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 80px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.AboutPrograms .ProgramTitle {
+  color: white;
+  font-size: 48px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Staatliches;
+  margin-top: 30px;
+}
+
+.AboutPrograms .ProgramDetails {
+  margin-bottom: 30px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px white solid;
+  color: white;
+  width: 200px;
+  height: 60px;
+  font-size: 17px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.AboutPrograms .ProgramDetails:hover {
+  background-color: white;
+  color: black;
+  -webkit-transition: 1.2s;
+  transition: 1.2s;
+}
+
+.AboutPrograms li {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 630px;
+  border-top: 3px solid #181717;
+}
+
+.AboutPrograms li:hover {
+  border-top: 3px solid #fd3c3d;
+}
+
+.AboutPrograms li .OurPro__Overlay {
+  width: 25%;
+  height: 630px;
+  position: absolute;
+  background: rgba(49, 52, 60, 0.4);
+  opacity: 1;
+}
+
+.AboutPrograms li .OurPro__Overlay:hover {
+  opacity: 0;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.AboutPrograms .BasicCrossfit {
+  background-image: url("../image/BasicCrossfit.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.AboutPrograms .FitnessStudio {
+  background-image: url("../image/FitnessStudio.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.AboutPrograms .Yoga {
+  background-image: url("../image/Yoga.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.AboutPrograms .PersonalTraining {
+  background-image: url("../image/PersonalTrainer.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.coachesTitle {
+  color: white;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.coaches {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.coaches li {
+  width: 50%;
+  height: 405px;
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.coaches li .StevenAyokee {
+  background-image: url(../image/StevenAyokee.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 40%;
+  height: 405px;
+}
+
+.coaches li .DominicSnyder {
+  background-image: url(../image/DominicSnyder.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 40%;
+  height: 405px;
+}
+
+.coaches li .JulieCollins {
+  background-image: url(../image/JulieCollins.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 40%;
+  height: 405px;
+}
+
+.coaches li .VirgilCook {
+  background-image: url(../image/VirgilCook.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 40%;
+  height: 405px;
+}
+
+.coaches li .trainerInfo__container {
+  width: 60%;
+  background-color: #2b2e35;
+  height: 405px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.coaches li .trainerinfo {
+  width: 80%;
+  text-align: left;
+  margin: auto;
+}
+
+.coaches li .trainerinfo .trainerName {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.coaches li .trainerinfo .TrainerPosition {
+  color: #fd3c3d;
+  text-transform: uppercase;
+  font-size: 17px;
+  margin: 15px 0px;
+}
+
+.coaches li .trainerinfo .AboutTrainer {
+  color: white;
+  font-size: 19px;
+  line-height: 30px;
+}
+
+.coaches__container {
+  margin-top: 160px;
+}
+
+.coaches__container .hrLineInEnelemtor {
+  margin-bottom: 50px;
+}
+
+.AboutIronMass {
+  background-image: url("../image/img.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 455px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 60px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.TextOnIronMassSect {
+  width: 43%;
+  margin-right: 50px;
+  text-align: left;
+  color: white;
+  line-height: 35px;
+  font-size: 18px;
+}
+
+.textAuthor {
+  color: #fd3c3d;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.SubscribeIronMass {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.SubscribeTitle {
+  font-size: 30px;
+  color: white;
+}
+
+.subscrieText {
+  font-size: 22px;
+  color: white;
+  margin-top: 30px;
+}
+
+.SubscForm {
+  margin-top: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#subscribeEmail {
+  width: 350px;
+  background-color: white;
+  border: 1px solid white;
+  height: 45px;
+  padding-left: 10px;
+  font-size: 19px;
+  outline: none;
+}
+
+.SubscribeBtn {
+  height: 49px;
+  width: 110px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  outline: none;
+  border: 1px solid #fd3c3d;
+  background-color: #fd3c3d;
+  cursor: pointer;
+}
+
+.SubscribeBtn:hover {
+  background-color: #ff1f1f;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.StayConnected {
+  font-size: 30px;
+  color: white;
+  margin-top: 70px;
+}
+
+.SocialInSubscribe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.SocialInSubscribe li {
+  margin: 0px 10px;
+  border: 1px white solid;
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.SocialInSubscribe li:hover {
+  background-color: white;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  color: blue;
+}
+
+.footerContainer {
+  background-color: #2b2e35;
+  width: 100%;
+  height: 330px;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footerContainer .elementorText__Editor, .footerContainer .ContactInformation, .footerContainer .OpenHour {
+  width: 27%;
+  margin-top: 60px;
+}
+
+.footerContainer .TextEditor {
+  color: white;
+  width: 90%;
+  margin-top: 40px;
+  line-height: 30px;
+}
+
+.footerHeadline {
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.FitnessHallAddress {
+  margin-top: 40px;
+  color: white;
+  line-height: 30px;
+}
+
+.OfficeEmail {
+  color: #fd3c3d;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.OfficeIsOpen {
+  line-height: 30px;
+  color: white;
+  margin-top: 40px;
+}
+/*# sourceMappingURL=MainPage.css.map */

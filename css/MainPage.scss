@@ -1,0 +1,525 @@
+
+.dark{
+    background-color: #222429 !important;
+}
+//Classes for header
+.Header{
+    background-color: #20232a;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.FaPhone{
+    color: #fd3c3d;
+}
+.ContactInfo{
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 340px;
+    justify-content: space-between;
+    margin-left: 25px;
+}
+#SearchBox{
+    border-bottom: 2px solid white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: #20232a;
+    color: white;
+    width: 275px;
+    outline: none;
+    font-size: 17px;
+    margin-right: 12px;
+    &::placeholder{
+        color: white;
+    }
+}
+.searchContainer{
+    display: none;
+    height: 50px;
+    margin-right: 20px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.StartSearch{
+    background-color: #fd3c3d;
+    border: #fd3c3d 1px solid;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+}
+.SearchOnHeader{
+    display: flex;
+    align-items: center;
+}
+.ShowHideSearch{
+    margin-right: 25px;
+    cursor: pointer;
+    &:active{
+        transform: scale(0.9);
+    }
+}
+
+//
+.navigationMenu{
+    height: 58px;
+    width: 100%;
+    background-color: #fd3c3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Logo{
+    font-family: Caveat Bold;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    height: 58px;
+    margin-right: 25px;
+    .active{
+        border-bottom: 3px solid white;
+    }
+    li{
+        border-bottom: 3px solid #fd3c3d;
+        padding: 0px 15px;
+        height: 54px;
+        display: flex;
+        align-items: center;
+        a{
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        &:hover{
+            border-bottom: 3px solid white;
+        }
+    } 
+}
+.bar{
+    position: absolute;
+    text-align: right;
+    margin-left: 100%;
+    transform: translateX(-200%);
+    color: white;
+    font-size: 30px;
+    visibility: hidden;
+    cursor: pointer;
+}
+.Social{
+    display: flex;
+    align-items: center;
+    li{
+        height: 20px !important;
+        width: 30px !important;
+        margin-top: 30px;
+        a{
+            &:first-child{
+                margin-left: 0px !important;
+            }
+            color: white;
+            margin: 0px 10px;
+            &:hover{
+                color: blue;
+            }
+        }
+    }   
+}
+
+//classes for elementor container
+.elementor__container{
+    background-image: url("../image/woman-lifting-barbell-1552249.jpg");
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hrLineInEnelemtor{
+    width: 130px;
+    height: 3px;
+    background-color: #fd3c3d;
+    border: #fd3c3d 1px solid;
+}
+.elementorContent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.WelcomeText{
+    font-size: 44px;
+    color: white;
+    font-family: Staatliches;
+    letter-spacing: 7px;
+    font-weight: bold;
+}
+.elementorTItle{
+    font-size: 93px;
+    font-family: Staatliches;
+    letter-spacing: 7px;
+    font-weight: bold;
+    color: #fd3c3d;
+    .ElementorTitlePtwo{
+        color: white;
+    }
+}
+.HeadlineDescribe{
+    width: 65%;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.GetStartToday{
+    width: 230px;
+    height: 50px;
+    margin-top: 40px;
+    outline: none;
+    background-color: #fd3c3d;
+    border: 1px solid #fd3c3d;
+    color: white;
+    font-size: 17px;
+    font-family: Staatliches;
+    letter-spacing: 2px;
+    cursor: pointer;
+    &:hover{
+        transition: 0.8s;
+        background-color: white;
+        color: #fd3c3d;
+        border: white 1px solid;
+    }
+}
+.OurPrograms__title{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-family: Staatliches;
+    margin-top: 100px;
+}
+//classes for fitness programs
+.AboutPrograms{
+    width: 100%;
+    height: 630px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    justify-content: space-between;
+    .ProgramTitle{
+        color: white;
+        font-size: 48px;
+        text-align: center;
+        font-weight: bold;
+        font-family: Staatliches;
+        margin-top: 30px;
+    }
+    .ProgramDetails{
+        margin-bottom: 30px;
+        background-color: rgba(0,0,0,0);
+        border: 2px white solid;
+        color: white;
+        width: 200px;
+        height: 60px;
+        font-size: 17px;
+        cursor: pointer;
+        text-transform: uppercase;
+        &:hover{
+            background-color: white;
+            color: black;
+            transition: 1.2s;
+        }
+    }
+    li{
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 630px;
+        border-top: 3px solid rgb(24, 23, 23);
+        &:hover{
+            border-top: 3px solid #fd3c3d;
+        }
+        .OurPro__Overlay{
+            width: 25%;
+            height: 630px;
+            position: absolute;
+            background: rgba(49,52,60,0.4);
+            opacity: 1;
+            &:hover{
+                opacity: 0;
+                transition: 0.6s;
+            }
+        }
+    }
+    .BasicCrossfit{
+        background-image: url("../image/BasicCrossfit.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    .FitnessStudio{
+        background-image: url("../image/FitnessStudio.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    .Yoga{
+        background-image: url("../image/Yoga.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    .PersonalTraining{
+        background-image: url("../image/PersonalTrainer.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+}
+
+//classes for coaches
+.coachesTitle{
+    color: white;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.coaches{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.coaches li{
+    width: 50%;
+    height: 405px;
+    margin-top: 15px;
+    .StevenAyokee{
+        background-image: url(../image/StevenAyokee.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        width: 40%;
+        height: 405px;
+    }
+    .DominicSnyder{
+        background-image: url(../image/DominicSnyder.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        width: 40%;
+        height: 405px;
+    }
+    .JulieCollins{
+        background-image: url(../image/JulieCollins.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        width: 40%;
+        height: 405px;
+    }
+    .VirgilCook{
+        background-image: url(../image/VirgilCook.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        width: 40%;
+        height: 405px;
+    }
+    display: flex;
+    align-items: center;
+    .trainerInfo__container{
+        width: 60%;
+        background-color: #2b2e35;
+        height: 405px;
+        display: flex;
+    }
+    .trainerinfo{
+        width: 80%;
+        text-align: left;
+        margin: auto;
+        .trainerName{
+            font-size: 24px;
+            text-transform: uppercase;
+            color: white;
+        }
+        .TrainerPosition{
+            color: #fd3c3d;
+            text-transform: uppercase;
+            font-size: 17px;
+            margin: 15px 0px;
+        }
+        .AboutTrainer{
+            color: white;
+            font-size: 19px;
+            line-height: 30px;
+        }
+    }
+}
+
+.coaches__container{
+    margin-top: 160px;
+}
+.coaches__container .hrLineInEnelemtor{
+    margin-bottom: 50px;
+}
+.AboutIronMass{
+    background-image: url("../image/img.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 455px;
+    display: flex;
+    margin-top: 60px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.TextOnIronMassSect{
+    width: 43%;
+    margin-right: 50px;
+    text-align: left;
+    color: white;
+    line-height: 35px;
+    font-size: 18px;
+}
+.textAuthor{
+    color: #fd3c3d;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.SubscribeIronMass{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.SubscribeTitle{
+    font-size: 30px;
+    color: white;
+}
+.subscrieText{
+    font-size: 22px;
+    color: white;
+    margin-top: 30px;
+}
+.SubscForm{
+    margin-top: 60px;
+    align-items: center;
+    display: flex;
+}
+#subscribeEmail{
+    width: 350px;
+    background-color: white;
+    border: 1px solid white;
+    height: 45px;
+    padding-left: 10px;
+    font-size: 19px;
+    outline: none;
+}
+.SubscribeBtn{
+    height: 49px;
+    width: 110px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    outline: none;
+    border: 1px solid #fd3c3d;
+    background-color: #fd3c3d;
+    cursor: pointer;
+    &:hover{
+        background-color: #ff1f1f;
+        transition: 0.5s;
+    }
+}
+.StayConnected{
+    font-size: 30px;
+    color: white;
+    margin-top: 70px;
+}
+.SocialInSubscribe{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    li{
+        margin: 0px 10px;
+        border: 1px white solid;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        color: white;
+        cursor: pointer;
+        &:hover{
+            background-color: white;
+            transition: 0.7s;
+            color: blue;
+        }
+    }
+}
+.footerContainer{
+    background-color: #2b2e35;
+    width: 100%;
+    height: 330px;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    .elementorText__Editor, .ContactInformation, .OpenHour{
+        width: 27%;
+        margin-top: 60px;
+    }
+    .TextEditor{
+        color: white;
+        width: 90%;
+        margin-top: 40px;
+        line-height: 30px;
+    }
+}
+.footerHeadline{
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.FitnessHallAddress{
+    margin-top: 40px;
+    color: white;
+    line-height: 30px;
+}
+.OfficeEmail{
+    color: #fd3c3d;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.OfficeIsOpen{
+    line-height: 30px;
+    color: white;
+    margin-top: 40px;
+}
